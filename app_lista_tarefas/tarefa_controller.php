@@ -80,11 +80,6 @@
 
         $tarefas = $tarefaService->recuperarPendentes();
 
-        if(isset($_GET['pag']) && $_GET['pag'] == 'index') {
-            header('location: index.php');
-        } else {
-            header('location: todas_tarefas.php');
-        };
     }
 
 ?>
